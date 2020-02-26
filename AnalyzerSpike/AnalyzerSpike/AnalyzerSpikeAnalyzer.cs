@@ -58,6 +58,9 @@ namespace AnalyzerSpike
             }
         }
 
+        // got InheritsFrom from:
+        // https://www.meziantou.net/working-with-types-in-a-roslyn-analyzer.htm#checking-a-type-inhe
+
         private static bool InheritsFrom(INamedTypeSymbol symbol, ITypeSymbol type)
         {
             var baseType = symbol.BaseType;
