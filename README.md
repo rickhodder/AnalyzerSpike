@@ -12,7 +12,7 @@ Check out the unit tests if you dont want to run the analyzer.
 # Code Examples
 
 ```C#
-// This doesnt generate a warning because it onlyn has one public method
+// This doesnt generate a warning because it only has one public method
 public class ExampleOne: RickHodder.ApiEndpoint
 {
   public void MethodOne()
@@ -20,7 +20,7 @@ public class ExampleOne: RickHodder.ApiEndpoint
   }
 }
 
-// This doesnt generate a warning because it onlyn has one public method, 
+// This doesnt generate a warning because it only has one public method, 
 // and a constructor, which doesnt count 
 public class ExampleTwo: RickHodder.ApiEndpoint
 {
